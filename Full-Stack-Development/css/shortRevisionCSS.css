@@ -1,0 +1,97 @@
+
+/* Synatx of CSS */
+/* 
+selector{
+    property: value
+}
+*/
+p{
+    color:blue;
+}
+
+
+/* Types of linking */
+/* 1. Inline                  Highest priority
+   2. Internal                  Whichever is written at bottom has the highest priority bw 
+   3. External                  Internal and external */
+
+/* Types of css selectors */
+
+/* 
+    1. Id selector   
+*/
+#lowestSize{
+    color: black;
+}
+
+/* 
+    2. Class selector   
+*/
+
+.orderList{
+    color:maroon ;
+}
+
+
+/* 
+    3. Element selector   
+*/
+
+h1{
+    color: black;
+}
+
+/* 
+    4. Group selector   
+*/
+
+
+
+ul ol{
+    color: blue;
+}
+
+
+/* Color Property */
+
+p{
+    color: red;
+    background-color: maroon;
+}
+
+
+/* Text property  */
+
+
+p{
+ font-size: 2px;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+/* Border */
+p{
+    border: 1px solid gray;
+    width: 150px;
+    height: 100px;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 20px;
+}
+
+/* Box Model - Wrap your content inside a box which
+                consist of padding, margin, border*/
+
+/* Z-index - Basically it tells which layer will come at
+                 the top of the all layers
+                 Or 
+            Basically it specify the stack order of the element*/
+
+
+
+
+
+/* Flex -  */
+/* Grid */
+
+
+
